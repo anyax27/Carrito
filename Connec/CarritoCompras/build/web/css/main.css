@@ -1,0 +1,174 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21/04/2019, 02:57:49 AM
+    Author     : angab
+*/
+body{
+    background-color: #333;
+    color: #fff; 
+}
+
+.navbar{
+    border-bottom: #c0392b 3px solid;
+}
+.home-inner{
+    padding: 150px;
+}
+.dark-overlay{
+    background-color: rgba(0, 0, 0, .7);
+    height: 137vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 200vh;
+}
+
+@media(max-width: 992px){
+    .home-inner{
+        padding-top: 100px;
+    }
+    .container52{
+        padding-top: 200px;
+    }
+}
+#Bienvenida{
+    font-family: Arial;
+    font-size: 20px;
+}
+#divIniciar{
+    top: 150px; 
+    width: 50%;
+}
+#divIniciar2{
+    top: 200px;
+    width: 80%;
+}
+#divIniciar3{
+    top: 200px;
+    width: 50%;
+}
+#icono1{
+    font-size: 30px;
+    color: black;
+}
+#icono1:hover{
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+#icono2{
+    font-size: 30px;
+}
+#icono2:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+#subir{
+    border: 0px;
+    background-color: white;
+}
+#ModificarCat, #ModificarCae, #ModificarMarca, #ModificarTalla{
+    top: 200px;
+    width: 50%;    
+}
+td{
+    color: black;
+}
+#provisional{
+    width: 100%;
+}
+#thinventario{
+    width: 10%;
+}
+.container52, #provisional52{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.container52{
+    padding-top: 150px;    
+}
+#provisional52{
+    padding-top: 0px;
+}
+.container52 .card52, #provisional53{
+    width: 330px;
+    border-radius: 80px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    background-color: white;
+    cursor: pointer;
+}
+.container52 .card52{
+    height: 300px;    
+}
+#provisional53{
+    height: 40px;
+}
+.container50{
+    width: 100%;
+    max-width: 1200px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    padding-top: 150px;    
+}
+.container52 .card52:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0,0.2);
+}
+.container52 .card52 img{
+    width: 330px;
+    height: 220px;
+}
+.container52 .card52 h4{
+    color: black;
+    font-weight: 600;    
+}
+
+.container52 .card52 p{
+    padding: 0 1rem;
+    font-size: 20px;
+    font-weight: 600;
+}
+.container52 .card52 a{
+    text-decoration: none;
+    color: #3498db;    
+}
+#otro{
+    text-decoration: none;
+}
+#botonComprar{
+    background-color: green;
+    width: 40%;
+}
+#botonComprar:hover{
+    background-color: black;
+}
+#unlabel{
+    cursor: pointer;
+}
+#confirmacion{
+    top: 20px; 
+    width: 50%;
+}
+#icon{
+    font-size: 60px;
+}
+
+
